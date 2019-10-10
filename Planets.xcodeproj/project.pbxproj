@@ -13,6 +13,7 @@
 		9DDBBD112113609800A55978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBBD0F2113609800A55978 /* LaunchScreen.storyboard */; };
 		9DDBBD19211360D100A55978 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD18211360D100A55978 /* Planet.swift */; };
 		9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD1E211360F500A55978 /* PlanetController.swift */; };
+		BA24E5F8234EC65D0092DE22 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA24E5F7234EC65D0092DE22 /* Settings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9DDBBD122113609800A55978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DDBBD18211360D100A55978 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		9DDBBD1E211360F500A55978 /* PlanetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
+		BA24E5F7234EC65D0092DE22 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				9DDBBD0A2113609700A55978 /* Main.storyboard */,
+				BA24E5F7234EC65D0092DE22 /* Settings.storyboard */,
 				9DDBBD0D2113609800A55978 /* Assets.xcassets */,
 				9DDBBD0F2113609800A55978 /* LaunchScreen.storyboard */,
 				9DDBBD122113609800A55978 /* Info.plist */,
@@ -161,6 +164,7 @@
 				9DDBBD112113609800A55978 /* LaunchScreen.storyboard in Resources */,
 				9DDBBD0E2113609800A55978 /* Assets.xcassets in Resources */,
 				9DDBBD0C2113609700A55978 /* Main.storyboard in Resources */,
+				BA24E5F8234EC65D0092DE22 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZRi-TI-gB7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings-->
+        <scene sceneID="IzW-1A-WR0">
+            <objects>
+                <viewController id="UOI-DZ-JiH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ps1-j8-r2L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hh8-JY-t4K">
+                                <rect key="frame" x="20" y="160" width="374" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is Pluto a planet?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coh-4G-Tpl">
+                                        <rect key="frame" x="0.0" y="0.0" width="325" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s0a-Jy-IqN">
+                                        <rect key="frame" x="325" y="0.0" width="51" height="31"/>
+                                    </switch>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Hh8-JY-t4K" firstAttribute="top" secondItem="Iln-Ld-4fl" secondAttribute="top" constant="20" id="2fY-S8-N8a"/>
+                            <constraint firstItem="Hh8-JY-t4K" firstAttribute="leading" secondItem="Iln-Ld-4fl" secondAttribute="leading" constant="20" id="3Ha-qn-E1k"/>
+                            <constraint firstItem="Iln-Ld-4fl" firstAttribute="trailing" secondItem="Hh8-JY-t4K" secondAttribute="trailing" constant="20" id="LgA-MH-L4l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Iln-Ld-4fl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="wIq-A9-Bva">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="NNm-S0-QvN"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aqB-Vm-d8c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1068.1159420289855" y="53.571428571428569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="t03-zP-oeC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZRi-TI-gB7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="pp3-pJ-O8L">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UOI-DZ-JiH" kind="relationship" relationship="rootViewController" id="CL2-F9-StE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b9a-AU-9JF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157.97101449275362" y="53.571428571428569"/>
+        </scene>
+    </scenes>
+</document>
